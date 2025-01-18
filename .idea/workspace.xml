@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3ea3bbc-c78d-4a9c-94af-948f15087dc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/ProyectoNuevo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/src/ivan/pruebas/borrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/src/ivan/tema5/ejercicio1Insersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/src/ivan/tema5/ejercicio2borrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/src/ivan/tema5/ejercicio3sudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/src/ivan/tema5/ejercicio5sudokuResuelto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/src/ivan/tema5/ejercicio6tresRaya.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/src/ivan/tema5/ejercio4sudokuAleatorio.java" afterDir="false" />
+    <list default="true" id="c3ea3bbc-c78d-4a9c-94af-948f15087dc4" name="Changes" comment="primer commit">
+      <change beforePath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Programación/ProyectoNuevo" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ivanmasiero&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ivanmasiero/S1DAM.git&quot;,
+    &quot;accountId&quot;: &quot;97191c4d-be11-4af8-85de-c847a205380c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,39 +46,39 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Ejercicio5_inicioTest.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Prueba1.executor": "Run",
-    "Application.Punto5_04_02_DefiniciónArrays.executor": "Run",
-    "Application.Punto5_06_ArgumentosMain.executor": "Run",
-    "Application.Punto5_07_01_ClaseArrays.executor": "Run",
-    "Application.Punto5_07_08_Insercion_EJERCICIO.executor": "Run",
-    "Application.Punto5_07_09_Borrado_EJERCICIO.executor": "Run",
-    "Application.Punto5_07_CuidadoUsoForeach.executor": "Run",
-    "Application.StringDaolaVuelta.executor": "Run",
-    "Application.array.executor": "Run",
-    "Application.borrar.executor": "Run",
-    "Application.cambioCharInt.executor": "Run",
-    "Application.ejercicio1Insersion.executor": "Run",
-    "Application.ejercicio2borrar.executor": "Run",
-    "Application.ejercicio3sudoku.executor": "Run",
-    "Application.ejercicio5sudokuResuelto.executor": "Run",
-    "Application.ejercicio6tresRaya.executor": "Run",
-    "Application.ejercio4sudokuAleatorio.executor": "Run",
-    "Application.numeroAleatorios.executor": "Run",
-    "Application.printf.executor": "Run",
-    "Application.tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/ivanmasiero/Documents/DAM/Programación/ProyectoNuevo/src/Main.java",
-    "settings.editor.selected.configurable": "application.passwordSafe"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prueba1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_04_02_DefiniciónArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_06_ArgumentosMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_01_ClaseArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_08_Insercion_EJERCICIO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_09_Borrado_EJERCICIO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_CuidadoUsoForeach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDaolaVuelta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.borrar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.cambioCharInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio1Insersion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio2borrar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio3sudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio5sudokuResuelto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio6tresRaya.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercio4sudokuAleatorio.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numeroAleatorios.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ivanmasiero/Documents/DAM/Programación/ProyectoNuevo/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Libro Paraninfo/src" />
@@ -174,6 +173,15 @@
       <option name="presentableId" value="Default" />
       <updated>1733903077349</updated>
     </task>
+    <task id="LOCAL-00001" summary="primer commit">
+      <option name="closed" value="true" />
+      <created>1737158591702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737158591702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +197,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
