@@ -4,8 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3ea3bbc-c78d-4a9c-94af-948f15087dc4" name="Changes" comment="primer commit">
-      <change beforePath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programación/ProyectoNuevo/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c3ea3bbc-c78d-4a9c-94af-948f15087dc4" name="Changes" comment="proyecto entero">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/tablero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/Matriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/UsoMatriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/pruebas/EdadNoValidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/Ejercicio511.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/EjercicioVueltaArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/borrar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/borrar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio7tresRayaGraf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicioLirbo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema6/ejercicioClase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema7/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/tema7/UsoCoche.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programacion-Java/src/main/java/tema7/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion-Java/src/main/java/tema7/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoNuevo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoNuevo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/pruebas/Prueba1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/pruebas/Prueba1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/tema5/ejercicio3sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio3sudoku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/tema5/ejercicio5sudokuResuelto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio5sudokuResuelto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/tema5/ejercicio6tresRaya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio6tresRaya.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +47,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Programación/ProyectoNuevo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -31,7 +59,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Ivanmasiero/S1DAM.git&quot;,
-    &quot;accountId&quot;: &quot;97191c4d-be11-4af8-85de-c847a205380c&quot;
+    &quot;accountId&quot;: &quot;7b5282a3-ed79-4a5f-bdf2-06737f91ef57&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -49,7 +77,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Ejercicio511.executor&quot;: &quot;Run&quot;,
     &quot;Application.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjercicioVueltaArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Prueba1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Punto5_04_02_DefiniciónArrays.executor&quot;: &quot;Run&quot;,
@@ -59,6 +89,8 @@
     &quot;Application.Punto5_07_09_Borrado_EJERCICIO.executor&quot;: &quot;Run&quot;,
     &quot;Application.Punto5_07_CuidadoUsoForeach.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringDaolaVuelta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsoCoche.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsoFactura.executor&quot;: &quot;Run&quot;,
     &quot;Application.array.executor&quot;: &quot;Run&quot;,
     &quot;Application.borrar.executor&quot;: &quot;Run&quot;,
     &quot;Application.cambioCharInt.executor&quot;: &quot;Run&quot;,
@@ -67,16 +99,24 @@
     &quot;Application.ejercicio3sudoku.executor&quot;: &quot;Run&quot;,
     &quot;Application.ejercicio5sudokuResuelto.executor&quot;: &quot;Run&quot;,
     &quot;Application.ejercicio6tresRaya.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio7tresRayaGraf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicioClase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicioLirbo.executor&quot;: &quot;Run&quot;,
     &quot;Application.ejercio4sudokuAleatorio.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ivan.tema5.borrar.executor&quot;: &quot;Run&quot;,
     &quot;Application.numeroAleatorios.executor&quot;: &quot;Run&quot;,
     &quot;Application.printf.executor&quot;: &quot;Run&quot;,
     &quot;Application.tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ivanmasiero/Documents/DAM/Programación/ProyectoNuevo/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -87,7 +127,34 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ejercicio6tresRaya">
+  <component name="RunManager" selected="Application.UsoCoche">
+    <configuration name="Prueba1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.pruebas.Prueba1" />
+      <module name="ProyectoNuevo" />
+      <option name="PROGRAM_PARAMETERS" value="11 + 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivan.pruebas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsoCoche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.tema7.UsoCoche" />
+      <module name="ProyectoNuevo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivan.tema7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="borrar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ivan.pruebas.borrar" />
       <module name="ProyectoNuevo" />
@@ -101,9 +168,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ejercicio5sudokuResuelto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.tema5.ejercicio5sudokuResuelto" />
+    <configuration name="borrar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.pruebas.borrar" />
       <module name="ProyectoNuevo" />
+      <option name="PROGRAM_PARAMETERS" value="aa11 s2 aa2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ivan.tema5.*" />
@@ -114,9 +182,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ejercicio6tresRaya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.tema5.ejercicio6tresRaya" />
+    <configuration name="ejercicio7tresRayaGraf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.tema5.ejercicio7tresRayaGraf" />
       <module name="ProyectoNuevo" />
+      <option name="PROGRAM_PARAMETERS" value="hola que tal estamos yo estoy de puta madre sociopata" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ivan.tema5.*" />
@@ -127,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ejercio4sudokuAleatorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.tema5.ejercio4sudokuAleatorio" />
+    <configuration name="ejercicioClase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.tema6.ejercicioClase" />
       <module name="ProyectoNuevo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ivan.tema5.*" />
+          <option name="PATTERN" value="ivan.tema6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,27 +209,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numeroAleatorios" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.Tools.numeroAleatorios" />
+    <configuration name="ivan.tema5.borrar" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.tema5.borrar" />
       <module name="ProyectoNuevo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivan.tema5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ejercicio5sudokuResuelto" />
-      <item itemvalue="Application.ejercicio6tresRaya" />
-      <item itemvalue="Application.numeroAleatorios" />
+      <item itemvalue="Application.ivan.tema5.borrar" />
+      <item itemvalue="Application.Prueba1" />
+      <item itemvalue="Application.UsoCoche" />
       <item itemvalue="Application.borrar" />
-      <item itemvalue="Application.ejercio4sudokuAleatorio" />
+      <item itemvalue="Application.ejercicio7tresRayaGraf" />
+      <item itemvalue="Application.ejercicioClase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ejercicio6tresRaya" />
+        <item itemvalue="Application.UsoCoche" />
         <item itemvalue="Application.borrar" />
-        <item itemvalue="Application.ejercio4sudokuAleatorio" />
-        <item itemvalue="Application.ejercicio5sudokuResuelto" />
-        <item itemvalue="Application.numeroAleatorios" />
+        <item itemvalue="Application.borrar" />
+        <item itemvalue="Application.ejercicio7tresRayaGraf" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737158591702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="proyecto entero">
+      <option name="closed" value="true" />
+      <created>1737161709769</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737161709769</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer commit" />
+    <MESSAGE value="proyecto entero" />
+    <option name="LAST_COMMIT_MESSAGE" value="proyecto entero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,8 +304,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ivan/pruebas/Prueba1.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/tema5/ejercicioLirbo.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/tema5/ejercicioLirbo.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/tema5/ejercicio3sudoku.java</url>
           <line>6</line>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/tema5/Ejercicio511.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/tema5/Ejercicio511.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ivan/pruebas/persona.java</url>
@@ -235,7 +344,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Libro Paraninfo/src/tema5/ejerciciosFinales/Punto5_Ejercicio7_unPocoGraficos/Ejercicio5_inicioTest.java</url>
           <line>7</line>
-          <properties class="tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest" method="main">
+          <properties class="tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

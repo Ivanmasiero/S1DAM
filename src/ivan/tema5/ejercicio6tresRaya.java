@@ -37,17 +37,28 @@ public class ejercicio6tresRaya {
                 System.out.println("gana X!");
                 break;
             }
-            System.out.println(Arrays.deepToString(tablero));
+            mostrar(tablero);
             System.out.println("O Escoge fila y columna");
             tablero[sc.nextInt()-1][sc.nextInt()-1]='O';
             termina=combrobar(tablero);
             if (termina) {
+                mostrar(tablero);
                 System.out.println("gana X!");
                 break;
             }
-            System.out.println(Arrays.deepToString(tablero));
+            mostrar(tablero);
         }
         if(!termina)
             System.out.println("Empate");
+    }
+
+    private static void mostrar(char a[][]){
+        for(int i=0;i<3;i++){
+            System.out.print("|");
+            for(int j=0;j<3;j++){
+                System.out.print(a[i][j] +"|");
+            }
+            System.out.println();
+        }
     }
 }

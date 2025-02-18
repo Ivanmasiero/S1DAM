@@ -34,7 +34,6 @@ public class ejercicio5sudokuResuelto {
         }
     }
     public static void main(String []args){
-
         int sudoku[][]=new int[3][3];
         cargaAleatorio(sudoku,9);
         System.out.println(Arrays.deepToString(sudoku));
