@@ -6,14 +6,17 @@ package ivan.EjercicioMatriz;
  */
 
 public class Matriz {
-    private int []length;
+    private int []contenido;
+    private int length;
+
 
     /**
      * Crea una matriz de solo una dimension con los espacios especificados por parametros
      * @param length
      */
     public Matriz(int length) {
-
+    this.length=length;
+    int[] matriz=new int[this.length];
     }
 
     /**
@@ -37,6 +40,17 @@ public class Matriz {
      * @param valor
      */
     public void setNum(int indice, int valor) {
+        if (indice>=this.length) {
+            int nuevaLongitud = indice + 1; //Amplia el array
+            int[] destino = new int[nuevaLongitud];
+            System.arraycopy(contenido, 0, destino, 0, length);
+            //Actuliza atributos
+            this.length = nuevaLongitud;
+            contenido=destino;
+            destino=null;
+        }
+        //asigno
+        contenido[indice]=valor;
     }
 
     /**
@@ -64,7 +78,8 @@ public class Matriz {
      * @param indice
      */
     public int  getValor(int indice) {
-        return 0;
+        if(indice>=length) throw new IllegalArgumentException();
+        return contenido[indice];
     }
 
     /**

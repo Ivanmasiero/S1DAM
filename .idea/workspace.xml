@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ea3bbc-c78d-4a9c-94af-948f15087dc4" name="Changes" comment="proyecto entero">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/tablero.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/UsoMatriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/pruebas/EdadNoValidaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/Ejercicio511.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/EjercicioVueltaArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/borrar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/borrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio7tresRayaGraf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicioLirbo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema6/ejercicioClase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema7/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ivan/tema7/UsoCoche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Programacion-Java/src/main/java/tema7/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion-Java/src/main/java/tema7/Factura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoNuevo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoNuevo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/pruebas/Prueba1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/pruebas/Prueba1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/tema5/ejercicio3sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio3sudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/tema5/ejercicio5sudokuResuelto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio5sudokuResuelto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/tema5/ejercicio6tresRaya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/tema5/ejercicio6tresRaya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/Matriz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
