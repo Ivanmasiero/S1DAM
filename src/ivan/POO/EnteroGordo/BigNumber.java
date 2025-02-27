@@ -1,9 +1,10 @@
 package ivan.POO.EnteroGordo;
 
 public class BigNumber {
-
+    /**
+     * El contenido de BigNumber
+     */
     private String value;
-    private BigNumber nextNote;
     /**
      * Constructor para un numero grande, guardo el value alreves para poder hacer operaciones después
      * @param in en que numero lo vamos a inicializar
@@ -20,25 +21,15 @@ public class BigNumber {
      * Cojo un bignumber y lo multiplico por n
      * @param n el numero por el cual lo quiero multiplicar
      */
-    public void multiplica(int n){    // <<<<<<< probar de forma estatica si me deja cambiar el value de bn
+    public void multiplica(int n){
         String aux=this.value;
-        for(int i=0;i<n;i++) {
+        for(int i=1;i<n;i++) { //empiezo desde 1 porque quiero que repita la suma n-1 veces
             this.suma(this, aux);
         }
         StringBuilder sc=new StringBuilder(this.value);
         this.value=sc.reverse().toString();
+        sc=null;
 
-
-
-        /*BigNumber auxBn=new BigNumber(Integer.valueOf(this.getValue()));
-        for(int i=0;i<n;i++){
-            this.suma(this,auxBn);
-        }/*
-        /*BigNumber auxBn=new BigNumber();
-        auxBn=this;
-        for(int i=0;i<n;i++){
-            this.suma(this,auxBn);
-        }*/
     }
     /**
      * Funcion para devolver el caracter de un bigNumber
@@ -46,20 +37,32 @@ public class BigNumber {
      * @return el digito en entero
      */
     private int  getChar(int i){
-
         //return Integer.valueOf(this.value.charAt(i).toString()); <<<<<< preguntar por que no funciona esto
         Character a=this.value.charAt(i);
         return Integer.valueOf(a.toString());
     }
     /**
-     * Funcion para sumar dos bigNumbers
-     * @param bn Primer bigNumber
-     * @param auxBn Segundo bigNumber a sumar
+     * Funcion para devolver el caracter de un Sting
+     * @param i posicion de caracter a devolver
+     * @return el digito en entero
      */
-    public void suma(BigNumber bn,BigNumber auxBn){
+    private static int getCharS(String aux,int i){
+        Character a=aux.charAt(i);
+        return Integer.valueOf(a.toString());
+    }
+    /**
+     * Funcion para sumar un BigNumber y un String, (he escogido sumar un String porque son estáticos, en caso de sumar
+     * 2 BigNumbers tendría problemas a la hora de multiplicar ya que son dinámicos, funcionarian como potencia
+     * ej(2,4,8,16) al hacerlo con String de forma estatica será (2,4,6,8,10)
+     * @param bn Primer bigNumber
+     * @param auxBn String estatico
+     */
+    public void suma(BigNumber bn,String auxBn){
         StringBuilder sb=new StringBuilder(); //me permite ir guardando el valor de la suma char a char
-        int aux=0;
-        for(int i=0;i<auxBn.value.length();i++){
+
+        int aux=0; //variable para ir guardando la suma de los 2 char de las posicion i
+        for(int i=0;i<auxBn.length();i++){ //para recorrer todo el contenido de mi bigNumber
+            auxBn=BigNumber.rellena(bn.value,auxBn); //relleno de 0 el numero estatico para poder operar de forma correcta
           if(BigNumber.comprueba(aux)) { //comprobamos si me tengo que llevar una o no
               aux = 0;
               aux = BigNumber.sumaChar(bn, i, auxBn); //suma dos digitos pero puede dar mas de 10
@@ -73,17 +76,17 @@ public class BigNumber {
             else
                 BigNumber.addLlevando(sb,aux, i); // añado la suma al sb, si son 2 digitos
         }
-        if(!comprueba(aux))
+        if(!comprueba(aux)) //compruebo si tengo que añadir un ultimo digito (1) en caso de llevarme en la ultima suma
             sb.append('1');
-        bn.value=sb.toString();
+        bn.value=sb.toString(); //cambio el valor del contenido de mi bigNumber
+        sb=null;
     }
-
     /**
      * Añado la suma de dos char a la posicion correcta, en caso de que la suma total sea solo 1 digito
      * @param sb donde lo voy a guardar
      * @param aux suma de los dos char
      */
-    private static void add(StringBuilder sb,int aux){
+    private static void add(StringBuilder sb,int aux) {
         sb.append(aux);
     }
     /**
@@ -92,22 +95,20 @@ public class BigNumber {
      * @param aux suma de los dos char
      * @param i posicion
      */
-    private static void addLlevando(StringBuilder sb,int aux,int i){
+    private static void addLlevando(StringBuilder sb,int aux,int i) {
         sb.append(Integer.toString(aux).charAt(1));
     }
-
-
     /**
      * metodo necesario para sumar 2 bigNumbers, sumamos 2 char en caso de que la anterior suma haya dado mas de 10
      * @param bn bigNumber principal
      * @param auxBn bigNumber segundario
      * @return la suma en entero, puede dar dos digitos
      */
-    private static int sumaCharLlevando(BigNumber bn,int i,BigNumber auxBn){
-        int a= bn.getChar(i);
-        int b= auxBn.getChar(i);
-        return a+b+1;
-           //return bn.getChar(i)+auxBn.getChar(i)+1;
+    private static int sumaCharLlevando(BigNumber bn,int i,String auxBn){
+        /*int a= bn.getChar(i);
+        int b= BigNumber.getCharS(auxBn,i);
+        return a+b+1;*/
+           return bn.getChar(i)+BigNumber.getCharS(auxBn,i)+1;
     }
     /**
      * metodo necesario para sumar 2 bigNumbers, sumamos 2 char
@@ -116,27 +117,36 @@ public class BigNumber {
      * @param auxBn bigNumber segundario
      * @return la suma en entero, puede dar dos digitos
      */
-    private static int sumaChar(BigNumber bn, int i, BigNumber auxBn){
-        int a= bn.getChar(i);
-        int b=bn.getChar(i);
-        return a+b;
-        //return bn.getChar(i)+auxBn.getChar(i);
+    private static int sumaChar(BigNumber bn, int i, String auxBn){
+        /*int a= bn.getChar(i);
+        int b= BigNumber.getCharS(auxBn,i);
+        return a+b;*/
+        return bn.getChar(i)+BigNumber.getCharS(auxBn,i);
     }
-
     /**
      * comprueba si es un digito o dos digitos para saber como sumar
      * @param aux entero a analizar
-     * @return
+     * @return si es un digito devuelve true
      */
     private static boolean comprueba(int aux){
-        if (aux<9)return true;
+        if (aux<10)return true;
         else return false;
     }
-    /*
-    537434
-    6878
-    1
+
+    /**
+     * funcion para rellenar de 0 el string "estatico" para que se pueda sumar de forma correcta con el bignumber
+     * @param bn valor de bignumber para saber la longitud
+     * @param aux string que quiero aumentar su tamaño
+     * @return
      */
+    private static String rellena(String bn,String aux){
+        StringBuilder sc=new StringBuilder(aux);
+        for(int i=aux.length();i<bn.length();i++){
+              sc.append(0);
+        }
+        return sc.toString();
+    }
+
     public String getValue() {
         return this.value;
     }

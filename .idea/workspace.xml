@@ -43,14 +43,8 @@
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/tag-search-index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/type-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EjercicioMatriz/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/Matriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EjercicioMatriz/MatrizD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/MatrizD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EnteroGordo/BigNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EnteroGordo/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/UsoMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/UsoMatriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/UsoMatrizD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/UsoMatrizD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/usoBigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,8 +267,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ivan.POO.main.usoBigNumber" />
-        <item itemvalue="Application.usoBigNumber" />
         <item itemvalue="Application.borrar" />
+        <item itemvalue="Application.usoBigNumber" />
         <item itemvalue="Application.UsoMatrizD" />
         <item itemvalue="Application.UsoMatriz" />
       </list>
@@ -375,8 +369,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="90" />
+          <line>49</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ivan/pruebas/persona.java</url>
@@ -413,15 +412,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java</url>
-          <line>35</line>
-          <properties class="ivan.POO.EnteroGordo.BigNumber">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
