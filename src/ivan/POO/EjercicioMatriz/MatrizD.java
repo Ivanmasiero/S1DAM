@@ -1,4 +1,4 @@
-package ivan.POO.EjercicioMatriz.EjercicioMatriz;
+package ivan.POO.EjercicioMatriz;
 /*
 Vamos a crear una clase que nos permita crear una matriz de una sola dimension que sea dispersa, de tal forma de que
 se enlace.

@@ -1,6 +1,6 @@
-package ivan.POO.EjercicioMatriz.main;
+package ivan.POO.main;
 
-import ivan.POO.EjercicioMatriz.EjercicioMatriz.MatrizD;
+import ivan.POO.EjercicioMatriz.MatrizD;
 
 public class UsoMatrizD {
     public static void main(String[] args) {
