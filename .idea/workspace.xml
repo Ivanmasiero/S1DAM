@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ea3bbc-c78d-4a9c-94af-948f15087dc4" name="Changes" comment="proyecto entero">
-      <change beforePath="$PROJECT_DIR$/../Programacion-Java/src/main/java/tema7/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programacion-Java/src/main/java/tema7/Factura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/ivan/pruebaMatriz/UsoMatriz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/ivan/pruebaMatriz/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/ivan/pruebaMatriz/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/resource-files/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/resource-files/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/resource-files/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/resource-files/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/resource-files/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/resource-files/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/script-files/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/script-files/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/script-files/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/script-files/search-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/script-files/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EjercicioMatriz/MatrizD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EnteroGordo/BigNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EnteroGordo/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/UsoMatrizD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/usoBigNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/Matriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/EjercicioMatriz/Matriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/EjercicioMatriz/UsoMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/UsoMatriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/Tools/numeroAleatorios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/Tools/NumRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/pruebas/borrar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +64,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -49,52 +97,58 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Ejercicio511.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjercicioVueltaArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Prueba1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Punto5_04_02_DefiniciónArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Punto5_06_ArgumentosMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Punto5_07_01_ClaseArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Punto5_07_08_Insercion_EJERCICIO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Punto5_07_09_Borrado_EJERCICIO.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Punto5_07_CuidadoUsoForeach.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringDaolaVuelta.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UsoCoche.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UsoFactura.executor&quot;: &quot;Run&quot;,
-    &quot;Application.array.executor&quot;: &quot;Run&quot;,
-    &quot;Application.borrar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.cambioCharInt.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio1Insersion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio2borrar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio3sudoku.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio5sudokuResuelto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio6tresRaya.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio7tresRayaGraf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicioClase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicioLirbo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercio4sudokuAleatorio.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ivan.tema5.borrar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.numeroAleatorios.executor&quot;: &quot;Run&quot;,
-    &quot;Application.printf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ivanmasiero/Documents/DAM/Programación/ProyectoNuevo/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Ejercicio511.executor": "Run",
+    "Application.Ejercicio5_inicioTest.executor": "Run",
+    "Application.EjercicioVueltaArray.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Prueba1.executor": "Run",
+    "Application.Punto5_04_02_DefiniciónArrays.executor": "Run",
+    "Application.Punto5_06_ArgumentosMain.executor": "Run",
+    "Application.Punto5_07_01_ClaseArrays.executor": "Run",
+    "Application.Punto5_07_08_Insercion_EJERCICIO.executor": "Run",
+    "Application.Punto5_07_09_Borrado_EJERCICIO.executor": "Run",
+    "Application.Punto5_07_CuidadoUsoForeach.executor": "Run",
+    "Application.StringDaolaVuelta.executor": "Run",
+    "Application.UsoCoche.executor": "Run",
+    "Application.UsoFactura.executor": "Run",
+    "Application.UsoMatriz.executor": "Run",
+    "Application.UsoMatrizD.executor": "Run",
+    "Application.array.executor": "Run",
+    "Application.borrar.executor": "Run",
+    "Application.cambioCharInt.executor": "Run",
+    "Application.ejercicio1Insersion.executor": "Run",
+    "Application.ejercicio2borrar.executor": "Run",
+    "Application.ejercicio3sudoku.executor": "Run",
+    "Application.ejercicio5sudokuResuelto.executor": "Run",
+    "Application.ejercicio6tresRaya.executor": "Run",
+    "Application.ejercicio7tresRayaGraf.executor": "Run",
+    "Application.ejercicioClase.executor": "Run",
+    "Application.ejercicioLirbo.executor": "Run",
+    "Application.ejercio4sudokuAleatorio.executor": "Run",
+    "Application.ivan.tema5.borrar.executor": "Run",
+    "Application.numeroAleatorios.executor": "Run",
+    "Application.printf.executor": "Run",
+    "Application.tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest.executor": "Run",
+    "Application.usoBigNumber.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/ivanmasiero/Documents/DAM/Programación/ProyectoNuevo/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ivan.POO.EnteroGordo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Libro Paraninfo/src" />
       <recent name="$PROJECT_DIR$/src" />
@@ -102,7 +156,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UsoCoche">
+  <component name="RunManager" selected="Application.usoBigNumber">
     <configuration name="Prueba1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ivan.pruebas.Prueba1" />
       <module name="ProyectoNuevo" />
@@ -123,6 +177,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ivan.tema7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsoMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.POO.EjercicioMatriz.main.UsoMatriz" />
+      <module name="ProyectoNuevo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivan.POO.EjercicioMatriz.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsoMatrizD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.POO.EjercicioMatriz.main.UsoMatrizD" />
+      <module name="ProyectoNuevo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivan.POO.EjercicioMatriz.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,33 +237,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ejercicio7tresRayaGraf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.tema5.ejercicio7tresRayaGraf" />
-      <module name="ProyectoNuevo" />
-      <option name="PROGRAM_PARAMETERS" value="hola que tal estamos yo estoy de puta madre sociopata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ivan.tema5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ejercicioClase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.tema6.ejercicioClase" />
-      <module name="ProyectoNuevo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ivan.tema6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ivan.tema5.borrar" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ivan.tema5.borrar" />
       <module name="ProyectoNuevo" />
@@ -197,20 +250,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="usoBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.POO.EjercicioMatriz.main.usoBigNumber" />
+      <module name="ProyectoNuevo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivan.POO.EjercicioMatriz.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ivan.tema5.borrar" />
       <item itemvalue="Application.Prueba1" />
+      <item itemvalue="Application.usoBigNumber" />
+      <item itemvalue="Application.UsoMatriz" />
+      <item itemvalue="Application.UsoMatrizD" />
       <item itemvalue="Application.UsoCoche" />
       <item itemvalue="Application.borrar" />
-      <item itemvalue="Application.ejercicio7tresRayaGraf" />
-      <item itemvalue="Application.ejercicioClase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.usoBigNumber" />
+        <item itemvalue="Application.borrar" />
+        <item itemvalue="Application.UsoMatrizD" />
+        <item itemvalue="Application.UsoMatriz" />
         <item itemvalue="Application.UsoCoche" />
-        <item itemvalue="Application.borrar" />
-        <item itemvalue="Application.borrar" />
-        <item itemvalue="Application.ejercicio7tresRayaGraf" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +374,16 @@
           <url>file://$PROJECT_DIR$/src/ivan/tema5/Ejercicio511.java</url>
           <line>7</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/usoBigNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/main/usoBigNumber.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ivan/pruebas/persona.java</url>

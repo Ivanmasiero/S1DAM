@@ -1,4 +1,6 @@
-package ivan.EjercicioMatriz;
+package ivan.POO.EjercicioMatriz.main;
+
+import ivan.POO.EjercicioMatriz.EjercicioMatriz.Matriz;
 
 public class UsoMatriz {
     public static void main(String[] args) {

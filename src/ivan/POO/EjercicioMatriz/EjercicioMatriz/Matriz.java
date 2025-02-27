@@ -1,4 +1,4 @@
-package ivan.EjercicioMatriz;
+package ivan.POO.EjercicioMatriz.EjercicioMatriz;
 
 /**
  * @author ivanmasiero
