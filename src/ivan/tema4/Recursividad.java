@@ -11,21 +11,28 @@ import java.math.BigInteger;
 public class Recursividad {
 	// Devolviendo long llegamos a n=20
 	// Plantéate cómo llegar a n=100 (son 158 dígitos)
-	private static BigInteger factorial(int n) {
+	/*private static BigInteger factorial(int n) {
 		// caso trivial
+		BigInteger prueba=BigInteger.valueOf(n).multiply(factorial(n-1));
 		if (n==0) return BigInteger.ONE;
 		else return BigInteger.valueOf(n).multiply(factorial(n-1));
+	}*/
+	private static long factorial(int n) {
+		// caso trivial
+		if (n==0) return 1;
+		else return n*(factorial(n-1));
 	}
 
  
 	public static void main(String[] args) {
 		// Datos de entrada
-		int n=100;
+		int n=5;
 		// Procesamiento
-		
-		BigInteger res=factorial(n);
+		long a=factorial(n);
+        System.out.println(a);
+		/*BigInteger res=factorial(n);
 		System.out.printf("EL factorial de %d es %d \n",n,res);
-		
+		*/
 		
 	}
 
