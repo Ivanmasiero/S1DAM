@@ -43,9 +43,10 @@
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/tag-search-index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/type-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/Matriz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/POO/main/UsoMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/UsoMatriz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/tema4/Recursividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/tema4/Recursividad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +107,7 @@
     "Application.StringDaolaVuelta.executor": "Run",
     "Application.UsoCoche.executor": "Run",
     "Application.UsoFactura.executor": "Run",
-    "Application.UsoMatriz.executor": "Run",
+    "Application.UsoMatriz.executor": "Debug",
     "Application.UsoMatrizD.executor": "Run",
     "Application.array.executor": "Run",
     "Application.borrar.executor": "Run",
@@ -177,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoMatrizD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.POO.EjercicioMatriz.main.UsoMatrizD" />
+    <configuration name="UsoMatriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.POO.main.UsoMatriz" />
       <module name="ProyectoNuevo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ivan.POO.EjercicioMatriz.main.*" />
+          <option name="PATTERN" value="ivan.POO.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,16 +263,16 @@
       <item itemvalue="Application.Recursividad" />
       <item itemvalue="Application.ivan.POO.main.usoBigNumber" />
       <item itemvalue="Application.usoBigNumber" />
-      <item itemvalue="Application.UsoMatrizD" />
+      <item itemvalue="Application.UsoMatriz" />
       <item itemvalue="Application.borrar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ivan.POO.main.usoBigNumber" />
+        <item itemvalue="Application.UsoMatriz" />
         <item itemvalue="Application.Recursividad" />
         <item itemvalue="Application.borrar" />
         <item itemvalue="Application.usoBigNumber" />
-        <item itemvalue="Application.UsoMatrizD" />
       </list>
     </recent_temporary>
   </component>
@@ -368,6 +369,11 @@
           <line>7</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ivan/POO/main/UsoMatriz.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ivan/pruebas/persona.java</url>
           <line>49</line>
@@ -403,6 +409,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java</url>
+          <line>4</line>
+          <properties class="ivan.POO.main.usoBigNumber" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="143" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

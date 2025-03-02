@@ -1,142 +1,56 @@
 package ivan.POO.EjercicioMatriz;
-
 /**
  * @author ivanmasiero
  * version 1
  */
-
 public class Matriz {
-    private int []contenido;
+    private int[] contenido;
     private int length;
-
+    private int[][] contenidoB;
 
     /**
-     * Crea una matriz de solo una dimension con los espacios especificados por parametros
-     * @param length
+     * Contructor para crear un array de un numero de espacios determinado
+     *
+     * @param row numero de espacios
      */
-    public Matriz(int length) {
-    this.length=length;
-    int[] matriz=new int[this.length];
+    public Matriz(int row) {
+        contenido = new int[row + 1];
     }
 
     /**
-     * Crea una matriz de solo un espacio con solo una dimension
+     * Cambio el valor de una posicion determinada
+     * @param row   posicion a guardar
+     * @param valor a poner
      */
-    public Matriz() {
-
+    public void setNum(int row, int valor) {
+        this.contenido[row] = valor;
     }
-
     /**
-     * Constructor para matrices bidimensionales
+     * amplio el numero de espacios a ampliar, debe ser mas grande que la longitud que ya tiene, si no da error
+     *
      * @param row
-     * @param col
      */
-    public Matriz(int row, int col) {
+    public int[] amplio(int row) {
+        if (row <= contenido.length) throw new IllegalArgumentException("error, espacios demasiado pequeños");
+        int[] aux = new int[row + 1];
+        return Matriz.cambia(aux, this);
     }
-
-    /**
-     * Primer parametro es la posicion donde lo quiero insertar y el segundo es el valor que quiero insertar, en caso de saltarte una posicion dara error.
-     * @param indice
-     * @param valor
-     */
-    public void setNum(int indice, int valor) {
-        if (indice>=this.length) {
-            int nuevaLongitud = indice + 1; //Amplia el array
-            int[] destino = new int[nuevaLongitud];
-            System.arraycopy(contenido, 0, destino, 0, length);
-            //Actuliza atributos
-            this.length = nuevaLongitud;
-            contenido=destino;
-            destino=null;
+    private static int[] cambia(int[] aux, Matriz matriz) {
+        for (int i = 1; i <= aux.length + 1; i++) {
+            aux[i] = matriz.contenido[i];
         }
-        //asigno
-        contenido[indice]=valor;
+        return aux;
     }
-
-    /**
-     * Pido por teclado numeros y voy rellenando hasta que no hay espacios o al poner una letra
-     */
-    public void setNums() {
+    public String toString() {
+        Integer aux;
+        String result = "";
+        for (int i = 0; i < contenido.length; i++) {
+            aux = contenido[i];
+            result = aux.toString();
+        }
+        return result;
     }
-
-    /**
-     * Pongo tamaño nuevo si es mas grande relleno con 0, si es menos pierdo datos
-     * @param indice
-     */
-    public void setSize(int indice) {
-    }
-
-    /**
-     * Borro el numero de la posicion especificada por parametro
-     * @param indice
-     */
-    public void delNum(int indice) {
-    }
-
-    /**
-     * Me devuelve el valor de la posicion especificada
-     * @param indice
-     */
-    public int  getValor(int indice) {
-        if(indice>=length) throw new IllegalArgumentException();
-        return contenido[indice];
-    }
-
-    /**
-     * Devuelve el numero de dimensiones
-     * @return
-     */
-    public int dimensiones() {
+    public int getNum(int row){
         return 0;
-    }
-
-    /**
-     * Especifico fila, columna y número. Coloca el numero que queramos en la posición especificada, si nos saltamos algun indice dara error
-     * @param row
-     * @param col
-     * @param valor
-     */
-    public void setNum(int row, int col, int valor) {
-    }
-
-    /**
-     * Pido por teclado numeros y voy rellenando hasta que no hay espacios o al poner una letra. En caso de poner 2 en parametros el metodo se hara para
-     * matrices bidimensionales
-     * @param dimensiones
-     */
-    public void setNums(int dimensiones){
-
-    }
-
-    /**
-     * Pongo el numero de columnas nuevo, si es mas grande lo relleno con 0 si es mas pequeño pierdo los datos
-     * @param col
-     */
-    public void setCol(int col) {
-    }
-
-    /**
-     * Pongo el numero de filas nuevo, si es mas grande lo relleno con 0 si es mas pequeño pierdo los datos
-     * @param row
-     */
-    public void setFila(int row) {
-    }
-
-    /**
-     * Borro el valor de la posicion diciendole que fila y columna. Muevo todos los numeros a una posicion anterior
-     * @param row
-     * @param col
-     */
-    public void delNum(int row, int col) {
-    }
-
-    /**
-     * Devuelvo el valor de la posicion especificada
-     * @param row
-     * @param col
-     */
-    public int getValor(int row, int col) {
-        int valor=0;
-        return valor;
     }
 }

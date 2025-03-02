@@ -1,8 +1,8 @@
 package ivan.POO.main;
 import com.sun.jdi.connect.Connector;
 import ivan.POO.EnteroGordo.BigNumber;
-public class usoBigNumber {
-
+public class
+usoBigNumber {
         public static void main(String[] args) {
             BigNumber a=new BigNumber();
             a=factorial(100);
@@ -13,4 +13,3 @@ public class usoBigNumber {
         return BigNumber.multiplica(factorial(n-1), n);
     }
 }
-

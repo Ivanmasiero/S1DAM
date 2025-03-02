@@ -1,5 +1,4 @@
 package ivan.POO.EnteroGordo;
-
 /**
  * Clase que nos permitira crear enteros de los digitos que queramos y nos permitira sumarlos y multiplicarlos
  */
@@ -43,7 +42,6 @@ public class BigNumber {
      */
     public void suma(BigNumber bn,String auxBn){
         StringBuilder sb=new StringBuilder(); //me permite ir guardando el valor de la suma char a char
-
         int aux=0; //variable para ir guardando la suma de los 2 char de las posicion i
         for(int i=0;i<auxBn.length();i++){ //para recorrer todo el contenido de mi bigNumber
             auxBn=BigNumber.rellena(bn.value,auxBn); //relleno de 0 el numero estatico para poder operar de forma correcta
@@ -113,7 +111,7 @@ public class BigNumber {
      * @return el digito en entero
      */
     private int  getChar(int i){
-        //return Integer.valueOf(this.value.charAt(i).toString()); <<<<<< preguntar por que no funciona esto
+        //return Integer.valueOf((Character)(this.value.charAt(i)).toString());// <<<<<< preguntar por que no funciona esto
         Character a=this.value.charAt(i);
         return Integer.valueOf(a.toString());
     }
@@ -148,7 +146,6 @@ public class BigNumber {
         }
         return sc.toString();
     }
-
     /**
      * función para devolver el contenido del BigNumber
      * @return contenido
