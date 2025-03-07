@@ -43,10 +43,8 @@
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/tag-search-index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/type-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/Matriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EnteroGordo/BigNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/main/UsoMatriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/UsoMatriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/POO/arbol/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/arbol/Arbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/POO/main/UsoArbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/UsoArbol.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +103,7 @@
     "Application.Punto5_07_CuidadoUsoForeach.executor": "Run",
     "Application.Recursividad.executor": "Run",
     "Application.StringDaolaVuelta.executor": "Run",
+    "Application.UsoArbol.executor": "Debug",
     "Application.UsoCoche.executor": "Run",
     "Application.UsoFactura.executor": "Run",
     "Application.UsoMatriz.executor": "Debug",
@@ -150,7 +149,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ivan.POO.main.usoBigNumber">
+  <component name="RunManager">
     <configuration name="Prueba1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ivan.pruebas.Prueba1" />
       <module name="ProyectoNuevo" />
@@ -171,6 +170,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ivan.tema4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsoArbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ivan.POO.main.UsoArbol" />
+      <module name="ProyectoNuevo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ivan.POO.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,35 +256,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="usoBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ivan.POO.EjercicioMatriz.main.usoBigNumber" />
-      <module name="ProyectoNuevo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ivan.POO.EjercicioMatriz.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ivan.tema5.borrar" />
       <item itemvalue="Application.Prueba1" />
+      <item itemvalue="Application.UsoArbol" />
       <item itemvalue="Application.Recursividad" />
       <item itemvalue="Application.ivan.POO.main.usoBigNumber" />
-      <item itemvalue="Application.usoBigNumber" />
       <item itemvalue="Application.UsoMatriz" />
       <item itemvalue="Application.borrar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ivan.POO.main.usoBigNumber" />
+        <item itemvalue="Application.UsoArbol" />
         <item itemvalue="Application.UsoMatriz" />
         <item itemvalue="Application.Recursividad" />
         <item itemvalue="Application.borrar" />
-        <item itemvalue="Application.usoBigNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -409,15 +408,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ivan/POO/main/usoBigNumber.java</url>
-          <line>4</line>
-          <properties class="ivan.POO.main.usoBigNumber" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="143" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
