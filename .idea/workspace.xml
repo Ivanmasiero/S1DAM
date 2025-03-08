@@ -43,8 +43,7 @@
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/tag-search-index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Programacion-Java/javaDoc/type-search-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/arbol/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/arbol/Arbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ivan/POO/main/UsoArbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/main/UsoArbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/MatrizD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ivan/POO/EjercicioMatriz/MatrizD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,57 +86,57 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Ejercicio511.executor": "Run",
-    "Application.Ejercicio5_inicioTest.executor": "Run",
-    "Application.EjercicioVueltaArray.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Prueba1.executor": "Run",
-    "Application.Punto5_04_02_DefiniciónArrays.executor": "Run",
-    "Application.Punto5_06_ArgumentosMain.executor": "Run",
-    "Application.Punto5_07_01_ClaseArrays.executor": "Run",
-    "Application.Punto5_07_08_Insercion_EJERCICIO.executor": "Run",
-    "Application.Punto5_07_09_Borrado_EJERCICIO.executor": "Run",
-    "Application.Punto5_07_CuidadoUsoForeach.executor": "Run",
-    "Application.Recursividad.executor": "Run",
-    "Application.StringDaolaVuelta.executor": "Run",
-    "Application.UsoArbol.executor": "Debug",
-    "Application.UsoCoche.executor": "Run",
-    "Application.UsoFactura.executor": "Run",
-    "Application.UsoMatriz.executor": "Debug",
-    "Application.UsoMatrizD.executor": "Run",
-    "Application.array.executor": "Run",
-    "Application.borrar.executor": "Run",
-    "Application.cambioCharInt.executor": "Run",
-    "Application.ejercicio1Insersion.executor": "Run",
-    "Application.ejercicio2borrar.executor": "Run",
-    "Application.ejercicio3sudoku.executor": "Run",
-    "Application.ejercicio5sudokuResuelto.executor": "Run",
-    "Application.ejercicio6tresRaya.executor": "Run",
-    "Application.ejercicio7tresRayaGraf.executor": "Run",
-    "Application.ejercicioClase.executor": "Run",
-    "Application.ejercicioLirbo.executor": "Run",
-    "Application.ejercio4sudokuAleatorio.executor": "Run",
-    "Application.ivan.POO.main.usoBigNumber.executor": "Run",
-    "Application.ivan.tema5.borrar.executor": "Run",
-    "Application.numeroAleatorios.executor": "Run",
-    "Application.printf.executor": "Run",
-    "Application.tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest.executor": "Run",
-    "Application.usoBigNumber.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/ivanmasiero/Documents/DAM/Programación/ProyectoNuevo/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Ejercicio511.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjercicioVueltaArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prueba1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_04_02_DefiniciónArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_06_ArgumentosMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_01_ClaseArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_08_Insercion_EJERCICIO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_09_Borrado_EJERCICIO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto5_07_CuidadoUsoForeach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursividad.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringDaolaVuelta.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsoArbol.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UsoCoche.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsoFactura.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsoMatriz.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.UsoMatrizD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.borrar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.cambioCharInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio1Insersion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio2borrar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio3sudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio5sudokuResuelto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio6tresRaya.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicio7tresRayaGraf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicioClase.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercicioLirbo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ejercio4sudokuAleatorio.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ivan.POO.main.usoBigNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ivan.tema5.borrar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numeroAleatorios.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tema5.ejerciciosFinales.Punto5_Ejercicio7_unPocoGraficos.Ejercicio5_inicioTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.usoBigNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ivanmasiero/Documents/DAM/Programación/ProyectoNuevo/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ivan.POO.EnteroGordo" />
@@ -149,7 +148,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ivan.tema5.borrar">
     <configuration name="Prueba1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ivan.pruebas.Prueba1" />
       <module name="ProyectoNuevo" />
